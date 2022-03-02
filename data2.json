@@ -1,0 +1,454 @@
+{
+	"user": {
+        "username": "sifatnabil",
+        "id": 123456789,
+        "email": "sifat.alam@brainstation-23.com"
+    },
+    "projects": [
+    	{
+    		"id": 1,
+    		"name": "Image Forgery Detection",
+    		"boards": [
+    			{
+    				"name": "Sprint 1",
+    				"cards": [
+    					{
+    						"name": "Find out ML based resources",
+    						"tasks": [
+    							{
+    								"id": 1,
+    								"name": "Look for recent papers",
+    								"time": "1d",
+    								"softwares": ["chrome", "firefox"]
+    							},
+    							{
+    								"id": 2,
+    								"name": "Look for recent articles",
+    								"time": "1d",
+    								"softwares": ["chrome", "firefox"]
+    							}
+    						]
+    					},
+    					{
+    						"name": "Look for DL based resources",
+    						"tasks": [
+    							{
+    								"id": 3,
+    								"name": "Study recent papers",
+    								"time": "2d",
+    								"softwares": ["chrome", "firefox"]
+    							},
+    							{
+    								"id": 4,
+    								"name": "Study different architectures",
+    								"time": "1d",
+    								"softwares": ["chrome", "firefox"]
+    							}
+    						]
+    					},
+    					{
+    						"name": "Find out available resources",
+    						"tasks": [
+    							{
+    								"id": 5,
+    								"name": "Look for code repos",
+    								"time": "4h",
+    								"softwares": ["chrome", "firefox"]
+    							},
+    							{
+    								"id": 6,
+    								"name": "Look for paper implementations",
+    								"time": "1d",
+    								"softwares": ["chrome", "ms edge"]
+    							}
+    						]
+    					},
+    					{
+    						"name": "Collect Datasets",
+    						"tasks": [
+    							{
+    								"id": 7,
+    								"name": "Collect openly available datasets",
+    								"time": "6h",
+    								"softwares": ["chrome", "ms edge"]
+    							},
+    							{
+    								"id": 8,
+    								"name": "Look for large commercial datasets",
+    								"time": "4h",
+    								"softwares": ["chrome", "ms edge"]
+    							}
+    						]
+    					}
+    				]
+    			},
+    			{
+    				"name": "Sprint 2",
+    				"cards": [
+    					{
+    						"name": "Explore datasets",
+    						"tasks": [
+    							{
+    								"id": 9,
+    								"name": "Figure out what kind of images are available",
+    								"time": "1d",
+    								"softwares": ["jupyter notebook", "chrome"]
+    							},
+    							{
+    								"id": 10,
+    								"name": "Check the distribution and properties of images",
+    								"time": "1d 1h",
+    								"softwares": ["jupyter notebook", "chrome"]
+    							}
+    						]
+    					},
+    					{
+    						"name": "Shortlist architectures and prepare them",
+    						"tasks": [
+    							{
+    								"id": 11,
+    								"name": "Shortlist a set of architectures to train based on performance.",
+    								"time": "2d",
+    								"softwares": ["jupyter notebook", "chrome"]
+    							},
+    							{
+    								"id": 12,
+    								"name": "Design the architecture and prepare for training",
+    								"time": "3d",
+    								"softwares": ["jupyter notebook", "chrome"]
+    							}
+    						]
+    					},
+    					{
+    						"name": "Prepare datasets and train",
+    						"tasks": [
+    							{
+    								"id": 13,
+    								"name": "Preprocess datasets for model training",
+    								"time": "1d",
+    								"softwares": ["jupyter notebook"]
+    							},
+    							{
+    								"id": 14,
+    								"name": "Feed the dataset, train the model and collect results",
+    								"time": "3d",
+    								"softwares": ["jupyter notebook"]
+    							}
+    						]
+    					},
+    					{
+    						"name": "Compare performances and deployment",
+    						"tasks": [
+    							{
+    								"id": 15,
+    								"name": "Compare multiple model performance",
+    								"time": "2d",
+    								"softwares": ["jupyter notebook"]
+    							},
+    							{
+    								"id": 16,
+    								"name": "Deploy the best performing model",
+    								"time": "1d",
+    								"softwares": ["docker", "MobaXterm"]
+    							}
+    						]
+    					}
+    				]
+    			}
+    		]
+    	},
+    	{
+    		"id": 2,
+    		"name": "Automated Time Entry",
+    		"boards": [
+    			{
+    				"name": "Sprint 1",
+    				"cards": [
+    					{
+    						"name": "Create a BOT for teams chat",
+    						"tasks": [
+    							{
+    								"id": 17,
+    								"name": "Explore microsoft BOT framework",
+    								"time": "1d",
+    								"softwares": ["Bot framework emulator", "chrome", "vs code"]
+    							},
+    							{
+    								"id": 18,
+    								"name": "Create a BOT using Python",
+    								"time": "2d",
+    								"softwares": ["vs code", "firefox"]
+    							}
+    						]
+    					},
+    					{
+    						"name": "Add greetings message for users",
+    						"tasks": [
+    							{
+    								"id": 19,
+    								"name": "Accept greeting from user",
+    								"time": "30m",
+    								"softwares": ["Bot framework emulator", "vs code"]
+    							},
+    							{
+    								"id": 20,
+    								"name": "Provide greetings to user",
+    								"time": "30m",
+    								"softwares": ["Bot framework emulator", "vs code"]
+    							}
+    						]
+    					},
+    					{
+    						"name": "Take User Update messages",
+    						"tasks": [
+    							{
+    								"id": 21,
+    								"name": "Receive update message from users",
+    								"time": "30m",
+    								"softwares": ["Bot framework emulator", "vs code"]
+    							},
+    							{
+    								"id": 22,
+    								"name": "Process the update message",
+    								"time": "30m",
+    								"softwares": ["Bot framework emulator", "vs code"]
+    							}
+    						]
+    					},
+    					{
+    						"name": "Trello API token from BOT",
+    						"tasks": [
+    							{
+    								"id": 23,
+    								"name": "Save Trello api token from users",
+    								"time": "2h",
+    								"softwares": ["vs code"]
+    							},
+    							{
+    								"id": 24,
+    								"name": "Using the received token collect user specific tasks",
+    								"time": "1h",
+    								"softwares": ["vs code"]
+    							}
+    						]
+    					}
+    				]
+    			},
+    			{
+    				"name": "Sprint 2",
+    				"cards": [
+    					{
+    						"name": "Search tasks from collected data from Trello",
+    						"tasks": [
+    							{
+    								"id": 25,
+    								"name": "Use the update message to grab tasks from trello",
+    								"time": "1h",
+    								"softwares": ["vs code"]
+    							},
+    							{
+    								"id": 26,
+    								"name": "Match update tasks with trello tasks",
+    								"time": "2h",
+    								"softwares": ["vs code"]
+    							}
+    						]
+    					},
+    					{
+    						"name": "Integrate the BOT to teams",
+    						"tasks": [
+    							{
+    								"id": 27,
+    								"name": "Integrate the bot to teams as an app",
+    								"time": "30m",
+    								"softwares": ["ms teams"]
+    							},
+    							{
+    								"id": 28,
+    								"name": "make sure that the bot is working in teams",
+    								"time": "30m",
+    								"softwares": ["ms teams"]
+    							}
+    						]
+    					},
+    					{
+    						"name": "Add Scraping from ERP for BOT",
+    						"tasks": [
+    							{
+    								"id": 29,
+    								"name": "Scrap user specific tasks from ERP",
+    								"time": "2d",
+    								"softwares": ["vs code"]
+    							}
+    						]
+    					},
+    					{
+    						"name": "Time entry using BOT",
+    						"tasks": [
+    							{
+    								"id": 30,
+    								"name": "Calculate time between greeting and update message and paste the time in ERP",
+    								"time": "1d",
+    								"softwares": ["vs code"]
+    							}
+    						]
+    					}
+    				]
+    			}
+    		]
+    	},
+    	{
+    		"id": 3,
+    		"name": "Telemedicine",
+    		"boards": [
+    			{
+    				"name": "Sprint 1",
+    				"cards": [
+    					{
+    						"name": "Study Telemedicine Solutions",
+    						"tasks": [
+    							{
+    								"id": 31,
+    								"name": "Look for already available telemedicine solutions",
+    								"time": "1d",
+    								"softwares": ["chrome", "ms edge", "adobe reader"]
+    							},
+    							{
+    								"id": 32,
+    								"name": "Shortlist a few solutions",
+    								"time": "1d",
+    								"softwares": ["ms docs"]
+    							}
+    						]
+    					},
+    					{
+    						"name": "Jitsi Experiment",
+    						"tasks": [
+    							{
+    								"id": 33,
+    								"name": "Jitsi setup for video and audio calling",
+    								"time": "4h",
+    								"softwares": ["chrome", "firefox", "ms edge"]
+    							},
+    							{
+    								"id": 34,
+    								"name": "Study on Jitsi scaling to support more participant",
+    								"time": "10d",
+    								"softwares": ["chrome", "firefox", "ms edge"]
+    							}
+    						]
+    					},
+    					{
+    						"name": "Table data extraction report OCR",
+    						"tasks": [
+    							{
+    								"id": 37,
+    								"name": "Unwanted rectangle box removal",
+    								"time": "5h",
+    								"softwares": ["jupyter notebook"]
+    							},
+    							{
+    								"id": 38,
+    								"name": "extract table data and mark texts as toggleable as google OCR polys",
+    								"time": "1d",
+    								"softwares": ["chrome", "jupyter notebook"]
+    							}
+    						]
+    					},
+    					{
+    						"name": "Prepare for front end",
+    						"tasks": [
+    							{
+    								"id": 31,
+    								"name": "Learn angular JS 10",
+    								"time": "5d",
+    								"softwares": ["vs code"]
+    							},
+    							{
+    								"id": 32,
+    								"name": "Code the front end",
+    								"time": "2d",
+    								"softwares": ["vs code"]
+    							}
+    						]
+    					}
+    				]
+    			},
+    			{
+    				"name": "Sprint 2",
+    				"cards": [
+    					{
+    						"name": "Slot booking for doctors",
+    						"tasks": [
+    							{
+    								"id": 33,
+    								"name": "Check and fix OpenMRS doctor calendar",
+    								"time": "3h",
+    								"softwares": ["apache tomcat", "docker", "vs code"]
+    							},
+    							{
+
+    								"id": 34,
+    								"name": "Create a calender view using Angular JS",
+    								"time": "4h",
+    								"softwares": ["vs code", "chrome"]
+    							}
+    						]
+    					},
+    					{
+    						"name": "Appointment UI in angular for patient",
+    						"tasks": [
+    							{
+    								"id": 35,
+    								"name": "Check and fix OpenMRS patient management.",
+    								"time": "3h",
+    								"softwares": ["apache tomcat", "docker", "vs code"]
+    							},
+    							{
+    								"id": 36,
+    								"name": "Create a calender view using Angular JS",
+    								"time": "4h",
+    								"softwares": ["vs code", "chrome"]
+    							}
+    						]
+    					},
+    					{
+    						"name": "Noise Cancelling",
+    						"tasks": [
+    							{
+    								"id": 37,
+    								"name": "Explore Java implementation, Jigasi codebase integrate for noise cancellation",
+    								"time": "7h",
+    								"softwares": ["vs code", "chrome"]
+    							},
+    							{
+    								"id": 38,
+    								"name": "Improve transcriber",
+    								"time": "2d",
+    								"softwares": ["vs code", "chrome", "jupyter notebook"]
+    							}
+    						]
+    					},
+    					{
+    						"name": "Bug fixes",
+    						"tasks": [
+    							{
+    								"id": 39,
+    								"name": "Web app camera fix",
+    								"time": "5h",
+    								"softwares": ["chrome", "vs code"]
+    							},
+    							{
+    								"id": 40,
+    								"name": "Responsive view fix",
+    								"time": "5h",
+    								"softwares": ["chrome", "vs code"]
+    							}
+    						]
+    					}
+    				]
+    			}
+    		]
+    	}
+    ]
+}

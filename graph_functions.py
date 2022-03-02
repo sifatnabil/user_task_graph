@@ -16,7 +16,7 @@ def create_edges(task_triples):
         if relation in edge_tupl:
             edge_tupl[relation].append(triple)
         else: 
-            edge_tupl[relation] = [(triple[0], relation, triple[1])]
+            edge_tupl[relation] = [(triple[0], relation, triple[2])]
 
     return edge_tupl
 
