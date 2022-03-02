@@ -2,6 +2,7 @@ def create_task_triples(data):
     task_triples = []
     project_nodes = []
     board_nodes = []
+    card_nodes = []
     task_nodes = []
     software_nodes = []
 
@@ -25,20 +26,26 @@ def create_task_triples(data):
             board_nodes.append((board_name,))
             task_triples.append((project_name, "has", board_name))
 
-            tasks = board['tasks']
-            for task in tasks:
-                task_id = task['id']
-                task_name = task['name']
-                task_time = task['time']
-                task_softwares = task['softwares']
-                task_nodes.append((task_id, task_name, task_time))
+            cards = board["cards"]
+            for card in cards:
+                card_name = card["name"]
+                card_nodes.append((card_name,))
+                task_triples.append((board_name, "has", card_name))
 
-                task_triples.append((board_name, "has", task_name))
+                tasks = card['tasks']
+                for task in tasks:
+                    task_id = task['id']
+                    task_name = task['name']
+                    task_time = task['time']
+                    task_softwares = task['softwares']
+                    task_nodes.append((task_id, task_name, task_time))
 
-                for software in task_softwares:
-                    task_triples.append((task_name, "uses", software))
-                    software_nodes.append((software,))
+                    task_triples.append((card_name, "has", task_name))
+
+                    for software in task_softwares:
+                        task_triples.append((task_name, "uses", software))
+                        software_nodes.append((software,))
 
 
-    return user_node, project_nodes, board_nodes, task_nodes, software_nodes, task_triples
+    return user_node, project_nodes, board_nodes, card_nodes, task_nodes, software_nodes, task_triples
     

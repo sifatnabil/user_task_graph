@@ -1,5 +1,4 @@
 from py2neo.bulk import merge_nodes 
-from helper import get_card_members
 from tqdm import tqdm
 
 # * Add nodes to the graph
